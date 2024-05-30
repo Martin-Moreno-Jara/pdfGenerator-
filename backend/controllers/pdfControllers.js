@@ -10,7 +10,7 @@ const createPDF = (req, res) => {
       if (err) {
         res.status(400).json({ err });
       }
-      res.status(200).json({ mgs: "success" });
+      res.status(200).json({ mgs: "success " });
     });
 };
 
